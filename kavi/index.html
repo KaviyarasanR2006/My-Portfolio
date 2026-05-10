@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Kaviyarasan - Aspiring Data Engineer passionate about Python, AWS, and cloud systems." />
+  <title>Kaviyarasan | Data Engineer Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap)" rel="stylesheet">
+  <script src="[kit.fontawesome.com](https://kit.fontawesome.com/a7e0b9959b.js)" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Loading animation -->
+  <div id="loader"><div class="spinner"></div></div>
+
+  <!-- Scroll progress -->
+  <div id="progress-bar"></div>
+
+  <!-- Header -->
+  <header class="navbar glass">
+    <h1 class="logo">Kaviyarasan</h1>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="theme-toggle"><i class="fas fa-moon"></i></div>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="hero-text">
+      <h2>Hello, I'm <span class="highlight">Kaviyarasan</span></h2>
+      <h3><span class="typing"></span></h3>
+      <p>Self-driven and passionate aspiring Data Engineer interested in scalable systems and cloud infrastructure.</p>
+      <div class="hero-buttons">
+        <a href="resume.pdf" class="btn">Download Resume</a>
+        <a href="#contact" class="btn contact">Contact Me</a>
+      </div>
+    </div>
+    <canvas id="particles"></canvas>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <div class="profile-img"></div>
+      <p>I'm a passionate <b>Data Engineer</b> with interest in <b>Python</b>, <b>AWS</b>, and building <b>scalable cloud systems</b>. I’m a quick learner dedicated to designing efficient data solutions and modern infrastructure pipelines.</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-container">
+      <div class="skill" data-skill="90">Python</div>
+      <div class="skill" data-skill="80">Java</div>
+      <div class="skill" data-skill="85">AWS</div>
+      <div class="skill" data-skill="80">EC2</div>
+      <div class="skill" data-skill="85">S3</div>
+      <div class="skill" data-skill="75">IAM</div>
+      <div class="skill" data-skill="90">HTML</div>
+      <div class="skill" data-skill="90">CSS</div>
+      <div class="skill" data-skill="85">JavaScript</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card glass">
+        <h3>Learning Management System (LMS)</h3>
+        <p>AI-powered LMS with course management, role-based authentication, and predictive analytics dashboards.</p>
+        <div class="tags"><span>Python</span><span>AI</span><span>Cloud</span></div>
+        <div class="buttons">
+          <a href="#" class="btn">GitHub</a>
+          <a href="#" class="btn">Demo</a>
+        </div>
+      </div>
+      <div class="project-card glass">
+        <h3>BM Seva Healthcare App</h3>
+        <p>Mobile app for biomedical waste management and reporting animal accidents with secure healthcare data handling.</p>
+        <div class="tags"><span>Java</span><span>AWS</span><span>Healthcare</span></div>
+        <div class="buttons">
+          <a href="#" class="btn">GitHub</a>
+          <a href="#" class="btn">Demo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>Dhanalakshmi Srinivasan Engineering College</h3>
+        <p>B.Tech Information Technology (2023–2027)</p>
+        <span>GPA: 7.3</span>
+      </div>
+      <div class="timeline-item">
+        <h3>C.D. Government Higher Secondary School</h3>
+        <p>HSLC (2023)</p>
+        <span>Percentage: 78.3%</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-info">
+      <p><i class="fas fa-phone"></i> +91 6383854972</p>
+      <p><i class="fas fa-envelope"></i> kaviyarasan11106@gmail.com</p>
+      <div class="socials">
+        <a href="[linkedin.com](https://www.linkedin.com/in/kaviyarasan-r-799567327)" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="[share.google](https://share.google/MUDqm5D0bxvKwnQgM)" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Kaviyarasan | All Rights Reserved</p>
+    <a href="#hero" id="back-to-top"><i class="fas fa-arrow-up"></i></a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
